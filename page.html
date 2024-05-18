@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mercedes-BenZ </title>
+
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="icon" type="image/x-icon" href="1.png">
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+   
+   
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <a href="#">
+
+                <img src="1.png" alt="mercedes benz" >
+            </a>
+
+            
+            <div class="navs" id="links">
+                <i class="fas fa-times" onclick="HideMenu()"></i> 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Exclusive</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            
+            <i class="fas fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+
+        <h1>Mercedes-Benz</h1>
+       <img src="media_FIxIi1KXsAYUaUw.jpg" alt="" width="50%" >
+
+        
+        <div class="maintext">
+            <h1>Services that we offer</h1>
+            <p>Welcome to Mercedes-Benz, we will be honored to serve you</p>
+            <a href="#" class="btn">Click here to know more</a>
+          
+        </div>
+    </header>
+    <div class="sora">
+        <img src="1.png" alt="" width="10%" >
+        </div>
+    
+    <footer class="services">
+        <h1>Our Services</h1>
+        <a href="#" class="btn">Here we provide details about the services we offer at Mercedes-BenZ.</a>
+        
+    </footer>
+
+    
+    <script>
+    var navLinks = document.getElementById("links");
+
+    function ShowMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function HideMenu() {
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>

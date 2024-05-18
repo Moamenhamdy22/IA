@@ -1,0 +1,188 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+}
+
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+.sora{
+    text-align: center;
+    left: 50%;
+}
+nav .navs {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: #333;
+    height: 200%;
+    width: 150px;
+    transition: 0.5s; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+nav ul li {
+    margin: 10px 10;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 010px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav .fa-bars, nav .fa-times {
+    cursor: pointer;
+    color: white;
+}
+
+nav .fa-bars {
+    display: none;
+}
+
+nav .fa-times {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: none;
+}
+
+.maintext {
+    padding: 50px 0;
+}
+
+.maintext h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.maintext p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.maintext .btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.maintext .btn:hover {
+    background-color: #cc5200;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 175px 0px;
+}
+
+footer h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+footer p {
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 700px) {
+    
+    nav .fa-bars {
+        display: inline; 
+    }
+
+    nav .fa-times {
+        display: block; 
+    }
+
+    nav .navs {
+        right: -200px; 
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    maintext {
+        padding: 30px 0;
+    }
+
+    .maintext h1 {
+        font-size: 1.8em;
+    }
+
+    .maintext p {
+        font-size: 1em;
+    }
+
+    .maintext .btn {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .maintext {
+        padding: 20px 0;
+    }
+
+    .maintext h1 {
+        font-size: 1.5em;
+    }
+
+    .maintext p {
+        font-size: 0.9em;
+    }
+
+    .maintext .btn {
+        padding: 8px 12px;
+    }
+
+    footer {
+        padding: 15px;
+    }}
